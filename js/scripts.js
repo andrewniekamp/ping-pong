@@ -4,7 +4,11 @@ var result = [];
 
 var pingPong = function(upperRange) {
   for (var i = 1; i <= upperRange; i++) {
-    result.push(i);
+    if (i % 3 === 0) {
+      result.push("ping");
+    } else {
+      result.push(i);
+    }
   }
   console.log(result);
 };
