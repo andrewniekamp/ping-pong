@@ -26,9 +26,18 @@ body {
   background-color: lightyellow;
 }
 
-#main {
+#result li {
+  padding-left: 40px;
+  font-size: 1.3em;
 }
 
 #range {
-  margin: 10px; 
+  margin-bottom: 10px;
+}
+
+#submit-btn {
+  background-color: tomato;
+  width: 100%;
+  color: white;
+  font-size: 2em;
 }
