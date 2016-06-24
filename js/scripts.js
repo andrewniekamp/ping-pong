@@ -31,5 +31,13 @@ $(function() {
     };
     outputItem += "</ul>";
     $("#result").html(outputItem);
+    $("#result").css("display", "none")
+    $("#result").animate({
+      opacity: 1,
+      left: "+=50",
+      height: "toggle"
+    }, 2000, function() {
+      console.log("DONE")
+    });
   });
 });
