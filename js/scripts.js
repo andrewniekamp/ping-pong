@@ -16,7 +16,6 @@ var pingPong = function(upperRange) {
       result.push(i);
     }
   }
-  console.log(result);
 };
 
 //interface logic
