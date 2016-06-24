@@ -4,7 +4,9 @@ var result = [];
 
 var pingPong = function(upperRange) {
   for (var i = 1; i <= upperRange; i++) {
-    if (i % 5 === 0) {
+    if (i % 5 === 0 && i % 3 === 0) {
+      result.push("ping-pong")
+    } else if (i % 5 === 0) {
       result.push("pong")
     } else if (i % 3 === 0) {
       result.push("ping");
