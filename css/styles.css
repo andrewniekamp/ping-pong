@@ -16,12 +16,19 @@ body {
   padding-bottom: 20px;
   border-bottom: 3px solid tomato;
 }
-#side {
+
+#side, #main {
+  margin-top: 1%;
   padding: 3%;
-  background-color: steelblue;
+}
+
+#side {
+  background-color: lightyellow;
 }
 
 #main {
-  padding: 3%;
-  background-color: seagreen;
+}
+
+#range {
+  margin: 10px; 
 }
