@@ -16,11 +16,13 @@ and run in the browser._
 ## Specifications
 | Behavior | Input Example | Output Example |
 | ------------- |:-------------:| -----:|
-| return a range | 5 |1,2,3,4,5|
-| return ping for 3 | 6 |1,2,ping,4,5,6|
-| change nums divisible by 3| 6|1,2,ping,4,5,ping|
-| change nums divisible by 5| 5 | 1,2,ping,4,pong|
-| change numbs divisible by 15 | 15 | ...pong,11,ping,13,14,ping-pong|
+| return a range to result section | 5 |1,2,3,4,5|
+| return 'ping' for 3 | 6 |1,2,ping,4,5,6|
+| rename nums divisible by 3 to 'ping'| 6|1,2,ping,4,5,ping|
+| rename nums divisible by 5 to 'pong'| 5 | 1,2,ping,4,pong|
+| rename nums divisible by 15 to 'ping-pong' | 15 | ...pong,11,ping,13,14,ping-pong|
+| add animation for output | any number | fadein result|
+| give error message for non-positive num | -5 | please try again|
 
 ## Known Bugs
 
