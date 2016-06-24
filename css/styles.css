@@ -1,3 +1,27 @@
+body {
+  font-family: raleway, sans-serif;
+}
+
 #result {
   opacity: 0.01;
+}
+
+#header img {
+  margin: 0 auto;
+  display: block;
+}
+
+#header {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 3px solid tomato;
+}
+#side {
+  padding: 3%;
+  background-color: steelblue;
+}
+
+#main {
+  padding: 3%;
+  background-color: seagreen;
 }
