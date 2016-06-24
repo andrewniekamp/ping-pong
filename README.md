@@ -6,12 +6,13 @@
 
 ## Description
 
-_This application takes a user input, and translates through backend javascript logic into Pig Latin_
+_This application takes a user input, makes changes to numbers divisible by 3 and 5, and returns the range to the user._
 
 ## Setup/Installation
 
-_Files can be cloned from Github @ https://github.com/Rick1970/pig-latin.git
-and run in the browser._
+_Files can be cloned from https://github.com/aniekamp/ping-pong and run in the browser._
+
+Viewable on GitHub Pages at: https://aniekamp.github.io/ping-pong/
 
 ## Specifications
 | Behavior | Input Example | Output Example |
