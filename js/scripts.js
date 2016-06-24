@@ -1,8 +1,10 @@
 //business logic
 var rangeInput = 0;
 var result = [];
+var outputItem = '';
 
 var pingPong = function(upperRange) {
+  result = [];
   for (var i = 1; i <= upperRange; i++) {
     if (i % 5 === 0 && i % 3 === 0) {
       result.push("ping-pong")
@@ -23,12 +25,11 @@ $(function() {
     event.preventDefault();
     rangeInput = parseInt($("#range").val());
     pingPong(rangeInput);
-    $("#result").append("<ul>");
+    outputItem = '';
     for (var i = 0; i < result.length; i++) {
-      $("#result").append(
-        "<li>" + result[i] + "</li>"
-      );
+      outputItem += "<li>" + result[i] + "</li>";
     };
-    $("#result").append("<ul>");
+    outputItem += "</ul>";
+    $("#result").html(outputItem);
   });
 });
