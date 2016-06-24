@@ -7,7 +7,18 @@
     <title></title>
   </head>
   <body>
+    <h1>Ping-Pong</h1>
     <div class="container">
+      <div id="instructions">
+        <h2>Let's Play</h2>
+        <h3>Rules:</h3>
+        <h4>Ping Pong will count up to your number from 1, with the following exceptions:</h4>
+        <ol>
+          <li>Numbers divisible by 3 become: "ping"</li>
+          <li>Numbers divisible by 5 become: "pong"</li>
+          <li>Numbers divisible by 3 <em>and</em> 5 become: "pingpong"</li>
+        </ol>
+      </div>
       <form id="num-form" class="form" action="index.html" method="post">
         <label for="range"></label>
         <input id="range" class="form-control" type="text" name="range" value="">
