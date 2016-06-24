@@ -27,8 +27,9 @@ body {
 }
 
 #result li {
-  padding-left: 40px;
+  margin-left: 40px;
   font-size: 1.3em;
+  list-style-type: square;
 }
 
 #result p, #result h1 {
