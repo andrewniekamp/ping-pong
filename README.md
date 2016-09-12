@@ -10,7 +10,7 @@ _This application takes a user input, makes changes to numbers divisible by 3 an
 
 ## Setup/Installation
 
-_Files can be cloned from https://github.com/aniekamp/ping-pong and run in the browser._
+_Files can be cloned from https://github.com/andrewniekamp/ping-pong and run in the browser._
 
 Viewable on GitHub Pages at: https://aniekamp.github.io/ping-pong/
 
